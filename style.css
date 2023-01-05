@@ -15,11 +15,12 @@
 .title {
     font-family: "bungee hairline";
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 30%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 40px;
+    line-height: 50px;
 }
 
 .car {
@@ -44,7 +45,7 @@
 
 iframe {
     position: absolute;
-    left: 60%;
+    left: 68%;
     top: 140%;
     transform: translate(-50%, -50%);
     user-select: none;
@@ -52,38 +53,50 @@ iframe {
 }
 
 .inbox {
+    width: 500px;
+    height: 500px;
     position: absolute;
     left: 60%;
     top: 150%;
     transform: translate(-50%, -50%);
 }
 
-.inbox-car {
-    width: 700px;
+.card {
+    width: 350px;
     height: auto;
     position: absolute;
-    right: 0;
-    z-index: -1;
+    bottom: -250px;
+    left: 30px;
+    border-radius: 20px;
     user-select: none;
 }
 
 .inbox-h2 {
     font-size: 35px;
-    color: rgb(245, 221, 0);
-    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-family: "amatic sc";
+    position: absolute;
+    bottom: -130px;
     left: 40px;
 }
 
 .number {
+    width: 250px;
+    height: 150px;
     font-size: 25px;
     font-family: roboto;
+    position: absolute;
+    bottom: -300px;
+    left: 40px;
 }
 
 .foot {
-    position: relative;
-    bottom: -420px;
+    position: absolute;
+    top: 0;
     text-align: center;
-    background-color: rgb(204, 204, 204);
     font-family: roboto;
     user-select: none;
+    font-size: 15px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.527);
 }
