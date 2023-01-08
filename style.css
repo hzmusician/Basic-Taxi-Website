@@ -111,6 +111,8 @@ iframe {
     .backphoto {width: 100%; object-fit: cover;}
     .car {width: 90%; left: 50%; top: 60%; transform: translate(-50%, -50%);}
     iframe {width: 80%; height: 50%; left: 50%; top: 550px;}
-    .card {width: 70%;}
+    .card {width: 70%; bottom: -30%;}
+    .inbox-h2 {bottom: -10%;}
+    .number {bottom: -40%;}
 
 }
