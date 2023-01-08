@@ -71,6 +71,7 @@ iframe {
     left: 30px;
     border-radius: 20px;
     user-select: none;
+    -webkit-user-select: none;
     display: flex;
 }
 
