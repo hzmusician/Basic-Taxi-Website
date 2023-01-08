@@ -111,6 +111,6 @@ iframe {
     .backphoto {width: 100%; object-fit: cover;}
     .car {width: 90%; left: 50%; top: 60%; transform: translate(-50%, -50%);}
     iframe {width: 80%; left: 50%;}
-    .card {width: 70%; margin: 5px;}
+    .card {width: 70%; margin: 5px; bottom: 50px;}
 
 }
