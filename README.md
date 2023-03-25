@@ -4,7 +4,7 @@
 
     * Color Codes * {
 
-        - Body: #03112c
+        - Body: `#03112c`
         - Title Background: #0f1d3aa2
         - Font color: #ffffffd7
 
