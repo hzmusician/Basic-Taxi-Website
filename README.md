@@ -4,16 +4,16 @@
 
 **Color Codes** {
 
-    + Body: `#03112c`
-    + Title Background: `#0f1d3aa2`
-    + Font color: `#ffffffd7`
+    - Body: `#03112c`
+    - Title Background: `#0f1d3aa2`
+    - Font color: `#ffffffd7`
 
 }
 
 **Fonts**  {
 
-    + Title: _anton_
-    + Text: _comfortaa_
+    - Title: _anton_
+    - Text: _comfortaa_
 
 }
 
