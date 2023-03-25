@@ -2,20 +2,25 @@
 
 <!--The website I made at the request of the driver of the taxi I took.-->
 
-    * Color Codes * {
+    **Color Codes** {
 
         - Body: `#03112c`
-        - Title Background: #0f1d3aa2
-        - Font color: #ffffffd7
+        - Title Background: `#0f1d3aa2`
+        - Font color: `#ffffffd7`
 
     }
 
-    * Fonts *  {
+    **Fonts**  {
 
-        - Title: anton
-        - Text: comfortaa
+        - Title: _anton_
+        - Text: _comfortaa_
 
     }
+   
+    
 
-    // Linkedin: https://www.linkedin.com/in/batuhan-karahan/
-    // Fiverr: https://www.fiverr.com/agartha_design?up_rollout=true
+    // Linkedin:
+      https://www.linkedin.com/in/batuhan-karahan/
+      
+    // Fiverr:
+      https://www.fiverr.com/agartha_design?up_rollout=true
