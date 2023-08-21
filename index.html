@@ -21,30 +21,35 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             background: url(/Photos/background-photo.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: #03112c;
+            display: flex;
+            flex-direction: column;
         }
 
         #title {
-            background-color: #0f1d3aa2;
-            color: #ffffffd7;
-            text-align: center;
-            margin-top: 5px;
-            font-size: 55px;
+            position: absolute;
+            width: 350px;
+            height: 100px;
+            color: #fff;
+            font-size: 4rem;
             font-family: anton;
-            border-radius: 20px;
+            align-items: center;
+            text-align: center;
+            left: 5%;
         }
             /*GOOGLE MAPS IFRAME*/
         iframe {
             border-radius: 20px;
             opacity: 0.4;
             position: absolute;
-            top: 20%;
+            bottom: -5%;
+            left: 5%;
             transition: 0.5s;
         }
 
@@ -52,37 +57,15 @@
             opacity: 1;
         }
 
-        #phone-number {
-            min-width: 100%;
-            text-align: center;
-            text-decoration: none;
-            -webkit-text-decoration: none;
-            color: #ffffffd7;
-            background-color: #0f1d3ada;
-            border-radius: 20px;
-            font-size: 25px;
-            font-weight: bolder;
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
         #text {
-            width: 430px;
-            height: 130px;
-            line-height: 33px;
-            color: #ffffffd7;
-            font-family: comfortaa;
+            width: 400px;
+            height: 200px;
+            color: #fff;
             font-size: 20px;
+            font-family: roboto;
             position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #0f1d3aa2;
-            text-align: center;
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px #111;
+            top: 20%;
+            right: 5%;
         }
 
     </style>
@@ -97,15 +80,11 @@
     </div>
 
     <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d766.9456507186786!2d37.00992145161144!3d39.74453396094097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407eab3b1fd60e51%3A0x87b48d401c9240fc!2sSivas%20Taksi%20(Sigorta%20Taksi)!5e0!3m2!1str!2str!4v1679689254819!5m2!1str!2str" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div id="phone-number">
-        +90 538 206 9409
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d766.9456507186786!2d37.00992145161144!3d39.74453396094097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407eab3b1fd60e51%3A0x87b48d401c9240fc!2sSivas%20Taksi%20(Sigorta%20Taksi)!5e0!3m2!1str!2str!4v1679689254819!5m2!1str!2str" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <div id="text">
-        Sivas sokaklarında huzur ve güvenle yolculuk etmek istiyorsanız arayın. <br> Hızlı ulaşım, kolay ödeme, günün her saati açık bir telefon...
+        Sivas sokaklarında huzur ve güvenle yolculuk etmek istiyorsanız arayın. <br> Hızlı ulaşım, kolay ödeme, günün her saati açık bir telefon... <br><br>+90 538 206 9409
     </div>
 
 </body>
