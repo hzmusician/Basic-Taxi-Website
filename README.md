@@ -1,24 +1,29 @@
 # SİVAS TAKSİ
 
+<img src="https://github.com/hzmusician/Basic-Taxi-Website/blob/main/Photos/img-1.png" width="600px" height="auto"> 
+
 > The website I made at the request of the driver of the taxi I took.
 
-**Color Codes** {
-
-    - Body: `#03112c`
+**Color Codes**
+    - Text Bg: `#11111157`
     - Title Background: `#0f1d3aa2`
-    - Font color: `#ffffffd7`
-
-}
-
-**Fonts**  {
-
-    - Title: _anton_
-    - Text: _comfortaa_
-
-}
+    - Font color: `#fff`
 
 
+**Fonts**
+    - _Sans-Serif_
+    - _Roboto_
+    - _Anton_
 
-[![linkedin](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/batuhan-karahan/)
-  
-[Fiverr](https://www.fiverr.com/agartha_design?up_rollout=true)
+I think it can help people find a taxi quickly and safely.
+Since the taxi driver asked me for a simple, functional, plain site, I built a site that gave only what was expected without adding anything unnecessary.
+
+I hope it has been a useful project for people living in Sivas.
+
+> [!IMPORTANT]
+> The website is currently open for active use.
+
+<a href="https://www.linkedin.com/in/batuhan-karahan/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="batuhan karahan" height="30" width="40" /></a>
+
+ To view my other projects:
+ [All Projects](https://github.com/hzmusician?tab=repositories).
