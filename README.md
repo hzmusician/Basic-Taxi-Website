@@ -4,16 +4,16 @@
 
 > The website I made at the request of the driver of the taxi I took.
 
-Color Codes
-    - Text Bg: `#11111157`
-    - Title Background: `#0f1d3aa2`
-    - Font color: `#fff`
+**Color Codes**
+- Text Bg: `#11111157`
+- Title Background: `#0f1d3aa2`
+- Font color: `#fff`
 
 
-Fonts
-    - _Sans-Serif_
-    - _Roboto_
-    - _Anton_
+**Fonts**
+- _Sans-Serif_
+- _Roboto_
+- _Anton_
 
 I think it can help people find a taxi quickly and safely.
 Since the taxi driver asked me for a simple, functional, plain site, I built a site that gave only what was expected without adding anything unnecessary.
