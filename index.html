@@ -33,39 +33,58 @@
         }
 
         #title {
-            position: absolute;
+            position: relative;
             width: 350px;
             height: 100px;
-            color: #fff;
-            font-size: 4rem;
-            font-family: anton;
-            align-items: center;
-            text-align: center;
-            left: 5%;
+            left: 15%;
         }
+
+        #title h1 {
+            color: #fff;
+            font-size: 60px;
+            font-family: anton;
+            text-align: center;
+            align-items: center;
+            line-height: 100px;
+            filter: drop-shadow(5px 5px 5px #111);
+        }
+        
             /*GOOGLE MAPS IFRAME*/
         iframe {
             border-radius: 20px;
-            opacity: 0.4;
             position: absolute;
             bottom: -5%;
-            left: 5%;
+            left: 20%;
             transition: 0.5s;
         }
 
         iframe:hover {
-            opacity: 1;
+            opacity: 0.7;
         }
 
         #text {
             width: 400px;
-            height: 200px;
+            height: 170px;
+            position: relative;
+            background: #11111157;
+            border-radius: 20px;
+            left: 9%;
+        }
+
+        #text p {
+            text-align: center;
+            align-items: center;
             color: #fff;
             font-size: 20px;
             font-family: roboto;
-            position: absolute;
-            top: 20%;
-            right: 5%;
+            filter: drop-shadow(5px 5px 5px #111);
+        }
+
+        #text span {
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight: 700;
+            filter: drop-shadow(5px 5px 5px #111);
         }
 
     </style>
@@ -76,7 +95,7 @@
 <body>
 
     <div id="title">
-        SİVAS TAKSİ
+        <h1>SİVAS TAKSİ</h1>
     </div>
 
     <div id="map">
@@ -84,7 +103,9 @@
     </div>
 
     <div id="text">
-        Sivas sokaklarında huzur ve güvenle yolculuk etmek istiyorsanız arayın. <br> Hızlı ulaşım, kolay ödeme, günün her saati açık bir telefon... <br><br>+90 538 206 9409
+        <p>
+            Sivas sokaklarında huzur ve güvenle yolculuk etmek istiyorsanız arayın. <br> Hızlı ulaşım, kolay ödeme, günün her saati açık bir telefon... <br><span>+90 538 206 9409</span>
+        </p>
     </div>
 
 </body>
